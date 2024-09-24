@@ -1,31 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 }
 
-.page {
-    width: 1200px;
-    margin: 0px auto;
-    padding-top: 64px;
+header {
+    background: #BEADFA;
+    padding: 15px;
 }
 
 nav {
-    width: 1440px;
-    height: 78px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    font-family: 'Mulish', sans-serif;
-    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #BEADFA;
+    font-family: 'Mulish', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.logo {
+    
 }
 
 nav ul {
@@ -34,4 +32,17 @@ nav ul {
     gap: 48px;
     font-weight: 700;
 }
+
+.About_Us {
+    width: 1440px;
+    height: 563px;
+    top: 78px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #8E8FFA;
+
+
+}
+
 
